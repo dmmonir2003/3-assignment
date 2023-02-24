@@ -1,0 +1,184 @@
+* {
+    font-family: 'EB Garamond', 'Poppins', serif;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.LG-btn-dark {
+    min-width: 150px;
+    height: 40px;
+    background-color: rgba(182, 140, 90, 1);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+
+}
+
+.LG-btn:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.LG-btn-prymary {
+    background-color: rgba(182, 140, 90, 1);
+
+}
+
+.castom-nav-item-LG {
+    padding-left: 130px;
+}
+
+.castom-item-LG {
+    padding-left: 30px;
+}
+
+/* style header-banner */
+.LG-bg-img-banner {
+    background-image: url(../images/banner.png);
+    height: 550px;
+    display: block;
+    width: 100%;
+
+
+}
+
+h1 {
+    padding-top: 110px;
+    font-size: 72px;
+}
+
+.banner-searchbox-LG {
+    width: 300px;
+    height: 40px;
+    margin-left: 27%;
+    border-radius: 8px;
+    margin-right: 30px;
+
+}
+
+.search-btn-LG {
+    height: 40px;
+    width: 150px;
+    margin-right: 200px;
+    background-color: rgba(182, 140, 90, 1);
+    border-radius: 8px;
+
+}
+
+/*The Legal Practice Area section style */
+
+.LG-practice-ariea-title {
+    font-size: 40px;
+    padding-top: 150px;
+    font-weight: 900;
+
+
+}
+
+/* card section area style */
+.LG-card-description {
+    margin-bottom: 100px;
+}
+
+.LG-castom-position {
+    margin-top: 90px;
+}
+
+.LG-card-edit {
+    padding: 30px;
+    align-items: center;
+    border-style: none;
+}
+
+/* our says section */
+.LG-reviewImageS {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.LG-castom-hight {
+    height: 500px;
+}
+
+.Lg-contact {
+    margin: 0;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.Lg-castom-form {
+    width: 500px;
+    height: 40px;
+
+
+}
+
+.Lg-castom-text-area {
+    width: 500px;
+    height: 100px;
+
+}
+
+/* footer section */
+.LG-footer-btn {
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.uniq {
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    /* nav section responsive */
+    .LG-btn-dark {
+        margin-top: 10px;
+    }
+
+    .LG-bg-img-banner {}
+
+    /* banner section rasponsive */
+    h1 {
+        padding-top: 100px;
+        font-size: 40px;
+        padding-right: 20px;
+
+    }
+
+    .banner-paragraf-LG {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .banner-rasponsive-LG {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-searchbox-LG {
+        width: 180px;
+        margin-left: 40px;
+    }
+
+    .search-btn-LG {
+        margin-top: 3px;
+        margin-left: 40px;
+    }
+
+    .uniq {
+        margin-left: 20px;
+    }
+
+
+
+}
